@@ -1,0 +1,12 @@
+# diffusers 0.41.0 (06/10/2026) já traz o QwenImage21Pipeline. O código foi conferido no commit 8b3c707 (0.41.0.dev0)
+# e os arquivos do Qwen-Image 2.1 foram comparados com a release (diferem só em sample_sigmas, tipos e comentários)
+diffusers==0.41.0
+# o cartão do Qwen-Image-2.1 pede >=5.17; o código foi conferido contra 5.12 e 5.20
+transformers>=5.17
+torch>=2.4
+accelerate
+bitsandbytes
+sentence-transformers
+bert-score
+pandas
+pillow
